@@ -6,17 +6,17 @@
 # Website - http://www.isp20.edu.ar
 import sys
 import os
-#armo un diccionario con los sistemas operativos como clave y los comandos
+#creo un diccionario con los sistemas operativos como clave y los comandos
 #que borran las consola como valores
 comandos = {"posix":"clear","nt":"cls"}
 
-#diccionario con cada una de las posiciones posibles como clave y como valor
+#hago diccionario con cada una de las posiciones posibles como clave y como valor
 #un espacio en blanco que ubicará la marca de cada jugador cuando la elijan
 #para colocar su ficha
 
 posiciones_tablero={1:"  ",2:"  ",3:"  ",4:"  ",5:"  ",6:"  ",7:"  ",8:"  ",9:"  "}
 
-#diccionario con las fichas de los 2 jugadores, cada ficha tendrá un posición
+#elaboramos un diccionario con las fichas de los 2 jugadores, cada ficha tendrá un posición
 #asociada, inician en cero los valores, a medida que vayan definiendo posiciones
 #se irán almacenando en el correspondiente diccionario y clave-ficha
 fichas_jugadores = {1:{1:0,2:0,3:0},2:{1:0,2:0,3:0}}
